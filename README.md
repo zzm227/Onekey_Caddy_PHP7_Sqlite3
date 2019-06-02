@@ -30,7 +30,9 @@
 #### 1.解析好域名 2.执行以下命令
 #### 3.提示：支持IPv6（AAAA记录）如果本地网络不支持IPv6可以通过cloudflareCDN转换为IP4
 ```
-wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/zzm227/Onekey_Caddy_PHP7_Sqlite3/master/c.sh && chmod +x c.sh && bash c.sh
+
+
 ```
 
 ## 一键安装 typecho 博客
